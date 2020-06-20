@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./RegisterStyle.css">
+    <script src="./RegisterJs.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <a href="Home.html">
+            <img src="./images/logo.svg" alt="store logo">
+        </a>
+        </div>
+    <div class="reg">
+        <div class="form-box">
+            <h1>CREATE ACCOUNT</h1>
+            <form class="input" onsubmit=" return validate()" action="index.html" >
+                <input type="text"  placeholder="Username" id="user" required>
+                <input type="text"  placeholder="Example@gmail.com" id="email" required>
+                <input type="password"  placeholder="Password" id="pass" required>
+                <input type="text"  placeholder="Mobile Number" id="mob" required>
+                <button type="submit">Register</button>           
+            </form>
+        </div>
+    </div>   
+    
+</body>
+</html>
